@@ -1,0 +1,5 @@
+# New reconstruction circuit
+
+Classic ESP32: soil ADC34, DHT11 data27, DS18B20 data14, PIR25. UNO: soil A0, DHT11 D2, DS18B20 D3, PIR D4. Use 4.7 kOhm pull-up on DS18B20 data to the logic supply; DHT11 needs its module pull-up or a suitable external pull-up. Keep analog/digital ESP32 inputs within 3.3 V. Install DHT sensor library, Adafruit Unified Sensor, OneWire and DallasTemperature. Missing sensors emit JSON null. DS18B20 conversion can block for its conversion interval; this is a slow telemetry design. Moisture remains raw until physically calibrated. Save serial JSON lines and on PowerShell run `Get-Content readings.jsonl | python collector.py` (on Linux: `python collector.py < readings.jsonl`) on a PC or Raspberry Pi to store received records. This reconstruction uses a local collector, not a recreated Blynk account.
+
+Connect grounds, provide regulated sensor power and use separate load power through rated drivers. Wiring describes the regenerated version, not a recovered historic schematic.

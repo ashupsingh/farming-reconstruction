@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Espressif ADC calibration",
+    "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc/adc_calibration.html",
+    "retrieved": "2026-10-23",
+    "local_research_copy_sha256": "e7198b3348a0e4a8ea004b5399603b4b463de1e1ee0f534b38a4018f9a1a5087",
+    "publication_note": "Linked only; offline publisher copy retained locally, not redistributed."
+  },
+  {
+    "title": "Blynk virtual pins",
+    "url": "https://docs.blynk.io/en/blynk-library-firmware-api/virtual-pins",
+    "retrieved": "2026-10-23",
+    "local_research_copy_sha256": "a3ae01f361891c9a7e052e41a2b2aa20759eb6edf3b2fdc78f0765ec20ef55e5",
+    "publication_note": "Linked only; offline publisher copy retained locally, not redistributed."
+  }
+]

@@ -1,0 +1,1 @@
+PASS: one synthetic record stored; nonfinite value, missing provenance and malformed JSON rejected. Temporary database removed. No hardware input used.

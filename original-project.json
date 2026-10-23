@@ -1,0 +1,22 @@
+{
+  "id": "farming",
+  "name": "Connected Farming",
+  "category": "Embedded · Agriculture",
+  "icon": "leaf",
+  "description": "An IoT solution for monitoring agricultural conditions with sensors, ESP modules, and a cloud dashboard.",
+  "detail": "Combined sensor monitoring and data analytics to support the optimization of agricultural conditions. A personal project exploring connected hardware and practical monitoring workflows.",
+  "stack": [
+    "ESP Modules",
+    "IoT Sensors",
+    "Cloud Dashboard",
+    "Data Analytics"
+  ],
+  "status": "Personal project",
+  "group": "Embedded & IoT",
+  "image": "/projects/farm_monitoring.webp",
+  "url": "",
+  "liveUrl": "",
+  "award": "",
+  "featured": false,
+  "evidence": []
+}
